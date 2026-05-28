@@ -43,7 +43,6 @@ The chatbot can detect emotions such as:
 It responds with supportive cybersecurity guidance based on the user's message.
 
 
-
 ## Memory Features
 
 The chatbot can remember:
@@ -57,7 +56,6 @@ my name is Vhugala
 i like privacy
 what do you remember
 ```
-
 
 
 ## Audio Greeting
