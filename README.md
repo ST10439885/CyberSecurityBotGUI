@@ -155,3 +155,8 @@ Current Version: v2.0
 ## License
 
 This project was developed for educational purposes.
+
+
+CI Workfram 
+<img width="1366" height="635" alt="git workflow part2" src="https://github.com/user-attachments/assets/59ff4d7d-ac6c-4b8e-8976-4ce8bf66cc4b" />
+
