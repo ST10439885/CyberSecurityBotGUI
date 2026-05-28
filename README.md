@@ -1,91 +1,87 @@
-# 🔒 Sentinel Shield - Cybersecurity Awareness Bot
+# Sentinel Shield – Cybersecurity Awareness Bot
 
-## 📌 Project Overview
+## About The Project
 
 Sentinel Shield is a cybersecurity awareness chatbot developed using C# and Windows Forms.  
+The chatbot helps users learn about online safety in an interactive and user-friendly way.
 
-The chatbot helps users learn about important cybersecurity topics such as:
-- Password safety
-- Phishing attacks
-- Online privacy
-- Safe online behaviour
+The application uses a chat-style interface similar to a messaging app where users can ask questions about cybersecurity topics such as password safety, phishing attacks, and online privacy.
 
-The chatbot simulates a modern messaging application conversation style similar to WhatsApp.
 
----
+## Features
 
-# ✨ Features
+- GUI-based chatbot
+- Chat-style conversation layout
+- Cybersecurity awareness tips
+- Password safety guidance
+- Phishing attack awareness
+- Online privacy tips
+- Sentiment detection
+- User memory and recall
+- Voice greeting using WAV audio
+- Interactive conversation flow
+- Enter key support for sending messages
 
-✅ GUI-based chatbot  
-✅ WhatsApp-style conversation layout  
-✅ Cybersecurity awareness tips  
-✅ Random chatbot responses  
-✅ Sentiment detection  
-✅ User memory and recall  
-✅ Voice greeting using WAV audio  
-✅ Interactive conversation flow  
-✅ Enter key support for sending messages  
-✅ Modern chatbot design and colors  
 
----
+## Cybersecurity Topics
 
-# 🛡️ Cybersecurity Topics Covered
+The chatbot currently covers:
 
 1. Password Safety  
 2. Phishing Attacks  
 3. Online Privacy  
 4. General Cybersecurity Awareness  
 
----
 
-# 😊 Sentiment Detection
+## Sentiment Detection
 
-The chatbot can detect user emotions such as:
+The chatbot can detect emotions such as:
 - Worried
 - Frustrated
 - Curious
 
-The bot responds with supportive cybersecurity guidance.
+It responds with supportive cybersecurity guidance based on the user's message.
 
----
 
-# 🧠 Memory Features
 
-The chatbot can:
-- Remember the user's name
-- Remember favourite cybersecurity topics
-- Recall stored information when asked
+## Memory Features
+
+The chatbot can remember:
+- The user's name
+- Favourite cybersecurity topics
 
 Example:
+
 ```text
 my name is Vhugala
 i like privacy
 what do you remember
 ```
 
----
 
-# 🔊 Audio Greeting
 
-The application includes a voice greeting using:
+## Audio Greeting
+
+The application includes a greeting audio file called:
+
 ```text
 greeting.wav
 ```
 
-The greeting automatically plays when the application starts.
+The audio automatically plays when the application starts.
 
----
 
-# 🖥️ Technologies Used
+
+## Technologies Used
 
 - C#
 - Windows Forms
 - .NET Framework
 - Visual Studio
 
----
 
-# 📂 Project Structure
+
+## Project Structure
 
 ```text
 CyberSecurityBotGUI
@@ -104,18 +100,17 @@ CyberSecurityBotGUI
 └── README.md
 ```
 
----
 
-# ▶️ How To Run The Application
+## How To Run The Application
 
-1. Open the solution in Visual Studio
-2. Build the project
+1. Open the project in Visual Studio
+2. Build the solution
 3. Run the application
 4. Start chatting with Sentinel Shield
 
----
 
-# 💬 Example Commands
+
+## Example Commands
 
 ```text
 password
@@ -128,40 +123,37 @@ my name is Vhugala
 what do you remember
 ```
 
----
 
-# 🎯 Purpose Of The Project
 
-The purpose of this project is to educate users about cybersecurity awareness through an interactive chatbot experience.
+## Purpose Of The Project
 
----
+This project was developed to promote cybersecurity awareness and educate users about safe online practices through an interactive chatbot experience.
 
-# 👨‍💻 Developer
 
-Vhugala Thobakgale
 
----
+## Future Improvements
 
-# 📌 Version
-
-Current Version:
-```text
-v2.0
-```
-
----
-
-# 🚀 Future Improvements
-
+Possible future improvements include:
 - More cybersecurity topics
 - AI-generated responses
 - Database integration
-- Real-time online chatbot support
-- Better chat bubble interface
-- User profile system
+- Improved chatbot design
+- User profiles and accounts
+- Advanced memory features
 
----
 
-# 📜 License
+## Developer
+
+Developed by Vhugala Thobakgale
+
+
+
+## Version
+
+Current Version: v2.0
+
+
+
+## License
 
 This project was developed for educational purposes.
