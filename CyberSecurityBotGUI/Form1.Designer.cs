@@ -24,6 +24,9 @@ namespace CyberSecurityBotGUI
             this.rtbChat = new System.Windows.Forms.RichTextBox();
             this.txtUserInput = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
+            this.btnQuiz = new System.Windows.Forms.Button();
+            this.btnTasks = new System.Windows.Forms.Button();
+            this.btnLog = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -79,12 +82,44 @@ namespace CyberSecurityBotGUI
             this.btnSend.UseVisualStyleBackColor = false;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
+            // btnQuiz
+            // 
+            this.btnQuiz.Location = new System.Drawing.Point(613, 448);
+            this.btnQuiz.Name = "btnQuiz";
+            this.btnQuiz.Size = new System.Drawing.Size(75, 23);
+            this.btnQuiz.TabIndex = 4;
+            this.btnQuiz.Text = "Start Quiz";
+            this.btnQuiz.UseVisualStyleBackColor = true;
+            this.btnQuiz.Click += new System.EventHandler(this.btnQuiz_Click);
+            // 
+            // btnTasks
+            // 
+            this.btnTasks.Location = new System.Drawing.Point(705, 448);
+            this.btnTasks.Name = "btnTasks";
+            this.btnTasks.Size = new System.Drawing.Size(75, 23);
+            this.btnTasks.TabIndex = 5;
+            this.btnTasks.Text = "Show Tasks";
+            this.btnTasks.UseVisualStyleBackColor = true;
+            this.btnTasks.Click += new System.EventHandler(this.btnTasks_Click);
+            // 
+            // btnLog
+            // 
+            this.btnLog.Location = new System.Drawing.Point(797, 448);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(75, 23);
+            this.btnLog.TabIndex = 6;
+            this.btnLog.Text = "Activity Log";
+            this.btnLog.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(884, 531);
+            this.Controls.Add(this.btnLog);
+            this.Controls.Add(this.btnTasks);
+            this.Controls.Add(this.btnQuiz);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtUserInput);
             this.Controls.Add(this.rtbChat);
@@ -106,5 +141,8 @@ namespace CyberSecurityBotGUI
         private System.Windows.Forms.RichTextBox rtbChat;
         private System.Windows.Forms.TextBox txtUserInput;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.Button btnQuiz;
+        private System.Windows.Forms.Button btnTasks;
+        private System.Windows.Forms.Button btnLog;
     }
 }
