@@ -388,7 +388,7 @@ namespace CyberSecurityBotGUI
             "\n\n");
              
 
-
+             
             logger.Add(
             "User asked: " + input);
 
